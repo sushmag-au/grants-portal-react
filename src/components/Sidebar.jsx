@@ -28,7 +28,7 @@ const Sidebar = ({ isOpen, onClose }) => {
             </div>
             <div className="sidebar-title-group">
               <h1>GrantsPortal</h1>
-              <div className="sidebar-subtitle">City of Greater Geelong</div>
+              <div className="sidebar-subtitle">City of Harborview</div>
             </div>
           </NavLink>
         </div>

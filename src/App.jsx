@@ -54,7 +54,7 @@ function App() {
                   <div className="card" style={{ textAlign: 'center', padding: '4rem 2rem' }}>
                     <h2>404 - Page Not Found</h2>
                     <p style={{ color: 'var(--color-text-muted)', margin: '1rem 0 2rem' }}>
-                      The requested route does not exist within the Geelong GrantsPortal.
+                      The requested route does not exist within the Harborview GrantsPortal.
                     </p>
                     <Link to="/" className="btn btn-primary">
                       Return to Dashboard

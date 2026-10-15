@@ -21,7 +21,7 @@ const GrantDetailContent = ({ grantId, navigate, onNavigate }) => {
       id: 1,
       author: 'Sushma Gogula',
       date: '2026-10-10',
-      text: 'Preliminary documentation vetted against City of Greater Geelong municipal guidelines. Applicant has confirmed matching funding.'
+      text: 'Preliminary documentation vetted against City of Harborview municipal guidelines. Applicant has confirmed matching funding.'
     }
   ]);
   const [isEditing, setIsEditing] = useState(false);
@@ -267,7 +267,7 @@ const GrantDetailContent = ({ grantId, navigate, onNavigate }) => {
             {grant.category}
           </div>
           <div style={{ fontSize: '0.85rem', color: 'var(--color-text-muted)' }}>
-            City of Greater Geelong Council Strategic Stream
+            City of Harborview Council Strategic Stream
           </div>
         </div>
 
@@ -374,7 +374,7 @@ const GrantDetailContent = ({ grantId, navigate, onNavigate }) => {
                 Eligibility Criteria & Verification
               </h3>
               <p style={{ color: '#334155', lineHeight: 1.7, fontSize: '1rem', marginBottom: '1.5rem' }}>
-                {grant.eligibility || 'Standard City of Greater Geelong municipal grant conditions apply. Applicants must hold active ABN, public liability insurance, and reside within the LGA.'}
+                {grant.eligibility || 'Standard City of Harborview municipal grant conditions apply. Applicants must hold active ABN, public liability insurance, and reside within the LGA.'}
               </p>
 
               <div style={{ backgroundColor: '#f0fdf4', border: '1px solid #bbf7d0', borderRadius: 'var(--radius-sm)', padding: '1rem 1.25rem' }}>
@@ -383,7 +383,7 @@ const GrantDetailContent = ({ grantId, navigate, onNavigate }) => {
                 </div>
                 <ul style={{ paddingLeft: '1.25rem', color: '#15803d', fontSize: '0.9rem', lineHeight: 1.6 }}>
                   <li>Valid Victorian Incorporated Association or DGR certification verified</li>
-                  <li>Greater Geelong municipality boundaries confirmed</li>
+                  <li>Harborview municipality boundaries confirmed</li>
                   <li>No overdue acquittal obligations from prior council funding rounds</li>
                 </ul>
               </div>

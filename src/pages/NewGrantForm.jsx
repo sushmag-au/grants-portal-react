@@ -78,7 +78,7 @@ const NewGrantFormContent = ({ navigate, onNavigate }) => {
           Create New Council Grant
         </h1>
         <p style={{ color: 'var(--color-text-muted)', marginTop: '0.25rem' }}>
-          City of Greater Geelong • Strategic Investment Intake Workflow
+          City of Harborview • Strategic Investment Intake Workflow
         </p>
       </div>
 
@@ -124,7 +124,7 @@ const NewGrantFormContent = ({ navigate, onNavigate }) => {
                 <input
                   id="title"
                   type="text"
-                  placeholder="e.g. Geelong West Community Renewable Hub"
+                  placeholder="e.g. Harborview West Community Renewable Hub"
                   className={`form-control ${errors.title ? 'error' : ''}`}
                   {...register('title', {
                     required: 'Grant title is mandatory',
@@ -311,7 +311,7 @@ const NewGrantFormContent = ({ navigate, onNavigate }) => {
               </h2>
 
               <p style={{ color: 'var(--color-text-muted)', marginBottom: '1.5rem' }}>
-                Please verify all entered grant parameters prior to registering this proposal into the City of Greater Geelong grants ledger.
+                Please verify all entered grant parameters prior to registering this proposal into the City of Harborview grants ledger.
               </p>
 
               <div style={{ backgroundColor: '#f8fafc', border: '1px solid var(--color-border)', borderRadius: 'var(--radius-sm)', padding: '1.5rem', marginBottom: '1.5rem' }}>

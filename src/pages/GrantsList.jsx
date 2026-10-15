@@ -92,7 +92,7 @@ const GrantsListContent = ({ navigate, onNavigate }) => {
             All Council Grants
           </h1>
           <p style={{ color: 'var(--color-text-muted)', marginTop: '0.25rem' }}>
-            Comprehensive directory of Geelong community, capital works, and cultural grants
+            Comprehensive directory of Harborview community, capital works, and cultural grants
           </p>
         </div>
         <button className="btn btn-primary" onClick={handleNewGrant}>
@@ -221,7 +221,7 @@ const GrantsListContent = ({ navigate, onNavigate }) => {
           </div>
         ) : (
           <div className="table-container" style={{ border: 'none' }}>
-            <table className="grants-table" aria-label="Geelong Council Grants Directory">
+            <table className="grants-table" aria-label="Harborview Council Grants Directory">
               <thead>
                 <tr>
                   <th scope="col">Title & Applicant</th>

@@ -110,7 +110,7 @@ const DashboardContent = ({ navigate, onNavigate }) => {
             Grants Management Overview
           </h1>
           <p style={{ color: 'var(--color-text-muted)', marginTop: '0.25rem' }}>
-            City of Greater Geelong • Strategic Community Investment & Governance
+            City of Harborview • Strategic Community Investment & Governance
           </p>
         </div>
         <button
@@ -255,7 +255,7 @@ const DashboardContent = ({ navigate, onNavigate }) => {
         <div style={{ padding: '1.25rem 1.5rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderBottom: '1px solid var(--color-border)' }}>
           <div>
             <h2 className="card-title">Recent Grant Submissions</h2>
-            <p className="card-subtitle">Last 5 grants submitted across Geelong municipal categories</p>
+            <p className="card-subtitle">Last 5 grants submitted across Harborview municipal categories</p>
           </div>
           <button
             className="btn btn-sm btn-outline"
