@@ -5,7 +5,7 @@ const GrantsContext = createContext(null);
 
 export const GrantsProvider = ({ children }) => {
   const [grants, setGrants] = useState(() => {
-    const saved = localStorage.getItem('geelong_grants_data');
+    const saved = localStorage.getItem('harborview_grants_data');
     if (saved) {
       try {
         return JSON.parse(saved);
@@ -19,7 +19,7 @@ export const GrantsProvider = ({ children }) => {
   const [toastMessage, setToastMessage] = useState(null);
 
   useEffect(() => {
-    localStorage.setItem('geelong_grants_data', JSON.stringify(grants));
+    localStorage.setItem('harborview_grants_data', JSON.stringify(grants));
   }, [grants]);
 
   const showToast = (message) => {

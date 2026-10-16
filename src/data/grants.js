@@ -26,7 +26,7 @@ export const GRANTS_DATA = [
     amountAwarded: 0,
     deadline: '2026-11-10',
     submittedDate: '2026-09-20',
-    applicant: 'Bellarine Creative Youth Network',
+    applicant: 'Harborview Creative Youth Network',
     description: 'Creation of an interactive open-air arts pavilion along the Harborview waterfront, featuring rotating exhibitions by emerging regional artists and weekend digital workshops.',
     eligibility: 'Registered arts collectives and youth leadership organisations with proven community delivery records.',
     progress: 60,
@@ -69,7 +69,7 @@ export const GRANTS_DATA = [
   },
   {
     id: '5',
-    title: 'Barwon River Riparian Corridor Restoration',
+    title: 'Harborview River Riparian Corridor Restoration',
     fundingBody: 'Corangamite Catchment Management Authority',
     category: 'Community & Environment',
     status: 'active',
@@ -77,12 +77,12 @@ export const GRANTS_DATA = [
     amountAwarded: 0,
     deadline: '2026-10-30',
     submittedDate: '2026-09-01',
-    applicant: 'Friends of Barwon River Parkland',
-    description: 'Eradication of invasive weeds and revegetation with 12,000 indigenous grasses and flowering shrubs along the Barwon River walking track between Queens Park and Fyansford.',
+    applicant: 'Friends of Harborview River Parkland',
+    description: 'Eradication of invasive weeds and revegetation with 12,000 indigenous grasses and flowering shrubs along the Harborview River walking track.',
     eligibility: 'Environmental Landcare groups and volunteer catchment stewards with council stewardship agreements.',
     progress: 85,
     contactOfficer: 'Sarah Mitchell',
-    tags: ['environment', 'landcare', 'barwon-river', 'biodiversity']
+    tags: ['environment', 'landcare', 'harborview-river', 'biodiversity']
   },
   {
     id: '6',
@@ -103,7 +103,7 @@ export const GRANTS_DATA = [
   },
   {
     id: '7',
-    title: 'Bellarine Peninsula Mobile Dementia Support Hub',
+    title: 'Harborview Peninsula Mobile Dementia Support Hub',
     fundingBody: 'Victorian Department of Health & Human Services',
     category: 'Community & Social Services',
     status: 'pending',
@@ -111,12 +111,12 @@ export const GRANTS_DATA = [
     amountAwarded: 0,
     deadline: '2026-12-20',
     submittedDate: '2026-10-05',
-    applicant: 'Bellarine Community Health Services',
+    applicant: 'Harborview Community Health Services',
     description: 'Outfitting a low-emission mobile van with diagnostic cognitive screening tools, respite consultation spaces, and carer resource libraries serving Portarlington, Drysdale, and Ocean Grove.',
     eligibility: 'Accredited community health care providers, aged care charities, and regional welfare trusts.',
     progress: 25,
     contactOfficer: 'David Chen',
-    tags: ['health', 'seniors', 'social-services', 'bellarine']
+    tags: ['health', 'seniors', 'social-services', 'harborview']
   },
   {
     id: '8',
@@ -163,7 +163,7 @@ export const GRANTS_DATA = [
     deadline: '2026-06-30',
     submittedDate: '2026-04-14',
     applicant: 'Djillong Cultural Arts Collective',
-    description: 'A 6-month mentorship and artist residency program pairing emerging Wadawurrung artists with master weavers and ceramicists to produce cultural installations for Harborview Library & Heritage Centre.',
+    description: 'A 6-month mentorship and artist residency program pairing emerging Harborview cultural artists with master weavers and ceramicists to produce cultural installations for Harborview Library & Heritage Centre.',
     eligibility: 'Aboriginal and Torres Strait Islander community-controlled arts collectives and cultural institutions.',
     progress: 100,
     contactOfficer: 'Julian Thorne',

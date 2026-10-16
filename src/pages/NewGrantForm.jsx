@@ -142,7 +142,7 @@ const NewGrantFormContent = ({ navigate, onNavigate }) => {
                   <input
                     id="applicant"
                     type="text"
-                    placeholder="e.g. Bellarine Youth Association Inc."
+                    placeholder="e.g. Harborview Youth Association Inc."
                     className={`form-control ${errors.applicant ? 'error' : ''}`}
                     {...register('applicant', {
                       required: 'Lead applicant organisation is required'
