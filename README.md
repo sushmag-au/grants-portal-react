@@ -1,11 +1,14 @@
 # GrantsHub — Community Grants Management Dashboard
 
+[![Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://grants-portal-react.vercel.app/)
 [![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev)
 [![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vitejs.dev)
 [![Recharts](https://img.shields.io/badge/Recharts-2-22b5bf?style=flat-square)](https://recharts.org)
 [![WCAG](https://img.shields.io/badge/WCAG%202.1-AA-0057A8?style=flat-square)](https://www.w3.org/WAI/WCAG21/quickref/)
 [![Tests](https://img.shields.io/badge/Vitest-6%2F6%20passing-success?style=flat-square)]()
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
+
+> 🚀 **Live Demo:** [https://grants-portal-react.vercel.app](https://grants-portal-react.vercel.app/)
 
 A modern **React 18 SPA** for managing community grants programs. Built with Vite, React Router v6, Recharts data visualisation, and React Hook Form — demonstrating real-world React patterns for data-heavy dashboards.
 
